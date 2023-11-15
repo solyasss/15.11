@@ -1,0 +1,29 @@
+.subscription_plan {
+    position: relative;
+    background-color: #fbfbf9;
+    border: 1px solid #6b6a6a;
+    border-radius: 9px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .subscription_plan:hover {
+    transform: scale(1.05)
+  }
+  
+  .subscription_plan button {
+    margin-top: 15px;
+  }
+  .price {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .per-month {
+    font-size: 14px;
+    margin: 0;
+  }
+  
